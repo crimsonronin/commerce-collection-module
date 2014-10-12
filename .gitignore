@@ -1,0 +1,12 @@
+nbproject
+._*
+.~lock.*
+.buildpath
+.DS_Collection
+.idea
+.project
+.settings
+vendor
+Thumbs.db
+*.log
+*.tar.gz
