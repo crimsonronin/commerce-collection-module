@@ -7,7 +7,7 @@ use Zoop\Shard\Stamp\DataModel\CreatedByTrait;
 use Zoop\Shard\Stamp\DataModel\UpdatedOnTrait;
 use Zoop\Shard\Stamp\DataModel\UpdatedByTrait;
 use Zoop\Shard\SoftDelete\DataModel\SoftDeleteableTrait;
-use Zoop\Common\DataModel\StoreTrait;
+use Zoop\Store\DataModel\StoreTrait;
 //Annotation imports
 use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
 use Zoop\Shard\Annotation\Annotations as Shard;
@@ -76,7 +76,7 @@ abstract class AbstractCollection
      * })
      */
     protected $slug;
-    
+
     public function getId()
     {
         return $this->id;

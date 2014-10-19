@@ -38,6 +38,10 @@
         },
         {
             "type": "vcs",
+            "url":  "git@github.com:zoopcommerce/commerce-public-apis-module.git"
+        },
+        {
+            "type": "vcs",
             "url":  "git@github.com:zoopcommerce/commerce-store-module.git"
         },
         {
@@ -70,10 +74,7 @@
         "melihucar/ftpclient"                       : "dev-master#faab472b1f3118d4926b3cbfc7d21c9cba255c0f as dev-master",
         "sendgrid/sendgrid"                         : "~2.1",
         "willdurand/geocoder"                       : "2.4.*",
-        "zoopcommerce/commerce-api-module"          : "dev-master",
-        "zoopcommerce/commerce-common-module"       : "dev-master",
-        "zoopcommerce/commerce-store-module"        : "dev-master",
-        "zoopcommerce/commerce-user-module"         : "dev-master",
+        "zoopcommerce/commerce-public-apis-module"  : "dev-master",
         "zoopcommerce/gateway-module"               : "~2.0",
         "zoopcommerce/shard-module"                 : "~4.0"
     },
@@ -81,7 +82,11 @@
         "phpunit/phpunit": ">=3.7",
         "squizlabs/php_codesniffer": "1.4.*",
         "phpmd/phpmd": "2.*",
-        "zoopcommerce/commerce-test-data-module"    : "dev-master"
+        "zoopcommerce/commerce-test-data-module"    : "dev-master",
+        "zoopcommerce/commerce-api-module"          : "dev-master",
+        "zoopcommerce/commerce-common-module"       : "dev-master",
+        "zoopcommerce/commerce-store-module"        : "dev-master",
+        "zoopcommerce/commerce-user-module"         : "dev-master"
     },
     "autoload": {
         "psr-0": {

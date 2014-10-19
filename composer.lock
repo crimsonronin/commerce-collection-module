@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "56193da7a1668efc275f2763224a9b3d",
+    "hash": "5654653171feb2887decaf1938d5c56f",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -12,24 +12,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c540fa2c66daf91383a2cd7fc044765f2da2aa52"
+                "reference": "10c82c791ff8e9e9a152d9948dec112b40755803"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c540fa2c66daf91383a2cd7fc044765f2da2aa52",
-                "reference": "c540fa2c66daf91383a2cd7fc044765f2da2aa52",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/10c82c791ff8e9e9a152d9948dec112b40755803",
+                "reference": "10c82c791ff8e9e9a152d9948dec112b40755803",
                 "shasum": ""
             },
             "require": {
-                "guzzle/guzzle": ">=3.7,<4",
+                "guzzle/guzzle": "~3.7",
                 "php": ">=5.3.3"
             },
             "require-dev": {
                 "doctrine/cache": "~1.0",
                 "ext-openssl": "*",
-                "monolog/monolog": "1.4.*",
-                "phpunit/phpunit": "4.*",
-                "symfony/yaml": "2.*"
+                "monolog/monolog": "~1.4",
+                "phpunit/phpunit": "~4.0",
+                "symfony/yaml": "~2.1"
             },
             "suggest": {
                 "doctrine/cache": "Adds support for caching of credentials and responses",
@@ -41,7 +41,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7.x-dev"
+                    "dev-master": "2.7-dev"
                 }
             },
             "autoload": {
@@ -71,7 +71,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2014-10-08 19:18:30"
+            "time": "2014-10-16 23:50:30"
         },
         {
             "name": "codeguy/upload",
@@ -407,12 +407,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "f15c4823b1bc5fceacc199765709cb67001445b2"
+                "reference": "2423cce3bcfba386a1f4a20c6d98f47ea25e0931"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/f15c4823b1bc5fceacc199765709cb67001445b2",
-                "reference": "f15c4823b1bc5fceacc199765709cb67001445b2",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/2423cce3bcfba386a1f4a20c6d98f47ea25e0931",
+                "reference": "2423cce3bcfba386a1f4a20c6d98f47ea25e0931",
                 "shasum": ""
             },
             "require": {
@@ -462,7 +462,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2014-08-20 16:09:16"
+            "time": "2014-10-16 11:57:27"
         },
         {
             "name": "doctrine/doctrine-module",
@@ -1060,12 +1060,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle3.git",
-                "reference": "d27346b6c8cb6a42092e763f8a2f674dfc560956"
+                "reference": "3c0ca2255751631f1dd64eb16bbe3b9440258297"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle3/zipball/d27346b6c8cb6a42092e763f8a2f674dfc560956",
-                "reference": "d27346b6c8cb6a42092e763f8a2f674dfc560956",
+                "url": "https://api.github.com/repos/guzzle/guzzle3/zipball/3c0ca2255751631f1dd64eb16bbe3b9440258297",
+                "reference": "3c0ca2255751631f1dd64eb16bbe3b9440258297",
                 "shasum": ""
             },
             "require": {
@@ -1144,7 +1144,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2014-09-16 21:19:27"
+            "time": "2014-10-15 19:36:56"
         },
         {
             "name": "imagine/imagine",
@@ -1770,118 +1770,30 @@
             "time": "2014-08-14 15:29:10"
         },
         {
-            "name": "zoopcommerce/commerce-api-module",
+            "name": "zoopcommerce/commerce-public-apis-module",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:zoopcommerce/commerce-api-module.git",
-                "reference": "57237b8fe7b12ba80d2bbb283b412f62ce320c5e"
+                "url": "git@github.com:zoopcommerce/commerce-public-apis-module.git",
+                "reference": "cdc9131534a834d8c5d23678dca793c7afe6b34c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zoopcommerce/commerce-api-module/zipball/57237b8fe7b12ba80d2bbb283b412f62ce320c5e",
-                "reference": "57237b8fe7b12ba80d2bbb283b412f62ce320c5e",
+                "url": "https://api.github.com/repos/zoopcommerce/commerce-public-apis-module/zipball/cdc9131534a834d8c5d23678dca793c7afe6b34c",
+                "reference": "cdc9131534a834d8c5d23678dca793c7afe6b34c",
                 "shasum": ""
             },
             "require": {
-                "aws/aws-sdk-php": "2.*",
-                "codeguy/upload": "dev-master#ff376306aacbd1005c7739dc171fae4edd96d8b7",
-                "doctrine/annotations": "dev-master#a11349d39d85bef75a71bd69bd604ac4fb993f03 as dev-master",
-                "doctrine/doctrine-module": "1.0.x-dev as 1.0",
-                "doctrine/doctrine-mongo-odm-module": "1.0.x-dev",
-                "doctrine/mongodb-odm": "dev-hotfix719 as 1.0.0-BETA9",
-                "doctrine/orm": "2.4.0-RC2",
-                "dompdf/dompdf": "dev-master#03ad3265797a338dce2d7064edd0cb4ebedb052b as dev-master",
-                "imagine/imagine": "~0.6",
-                "mashape/unirest-php": "~1.2",
-                "melihucar/ftpclient": "dev-master#faab472b1f3118d4926b3cbfc7d21c9cba255c0f as dev-master",
-                "php": ">=5.4",
-                "sendgrid/sendgrid": "~2.1",
-                "zendframework/zendframework": "2.3.1",
-                "zoopcommerce/commerce-common-module": "dev-master",
-                "zoopcommerce/shard-module": "~4.0"
+                "php": ">=5.4"
             },
             "require-dev": {
                 "phpmd/phpmd": "2.*",
-                "phpunit/phpunit": ">=3.7",
-                "squizlabs/php_codesniffer": "1.4.*",
-                "zoopcommerce/slipstream": "~0.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Zoop\\Api": "src/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Josh Stuart",
-                    "email": "josh.stuart@zoopcommerce.com"
-                },
-                {
-                    "name": "Tim Roediger",
-                    "email": "superdweebie@gmail.com"
-                }
-            ],
-            "description": "Commerce - API Module",
-            "homepage": "http://zoopcommerce.com",
-            "keywords": [
-                "commerce",
-                "doctrine",
-                "mongo",
-                "shard",
-                "zf2",
-                "zoop",
-                "zoop"
-            ],
-            "support": {
-                "source": "https://github.com/zoopcommerce/commerce-api-module/tree/master",
-                "issues": "https://github.com/zoopcommerce/commerce-api-module/issues"
-            },
-            "time": "2014-09-10 07:05:52"
-        },
-        {
-            "name": "zoopcommerce/commerce-common-module",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:zoopcommerce/commerce-common-module.git",
-                "reference": "d1fd664003311212467acd5858545fed5bbc4ae8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zoopcommerce/commerce-common-module/zipball/d1fd664003311212467acd5858545fed5bbc4ae8",
-                "reference": "d1fd664003311212467acd5858545fed5bbc4ae8",
-                "shasum": ""
-            },
-            "require": {
-                "aws/aws-sdk-php": "2.*",
-                "codeguy/upload": "dev-master#ff376306aacbd1005c7739dc171fae4edd96d8b7",
-                "doctrine/annotations": "dev-master#a11349d39d85bef75a71bd69bd604ac4fb993f03 as dev-master",
-                "doctrine/doctrine-module": "1.0.x-dev as 1.0",
-                "doctrine/doctrine-mongo-odm-module": "1.0.x-dev",
-                "doctrine/mongodb-odm": "dev-hotfix719 as 1.0.0-BETA9",
-                "doctrine/orm": "2.4.0-RC2",
-                "dompdf/dompdf": "dev-master#03ad3265797a338dce2d7064edd0cb4ebedb052b as dev-master",
-                "ezyang/htmlpurifier": "v4.5.0",
-                "imagine/imagine": "~0.6",
-                "mashape/unirest-php": "~1.2",
-                "melihucar/ftpclient": "dev-master#faab472b1f3118d4926b3cbfc7d21c9cba255c0f as dev-master",
-                "php": ">=5.4",
-                "sendgrid/sendgrid": "~2.1",
-                "willdurand/geocoder": "2.4.*",
-                "zendframework/zendframework": "2.3.1",
-                "zoopcommerce/shard-module": "~4.0"
-            },
-            "require-dev": {
-                "phpmd/phpmd": "2.*",
-                "phpunit/phpunit": ">=3.7",
                 "squizlabs/php_codesniffer": "1.4.*"
             },
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Zoop\\Common": "src/"
+                    "Zoop": "src/"
                 }
             },
             "authors": [
@@ -1894,7 +1806,7 @@
                     "email": "superdweebie@gmail.com"
                 }
             ],
-            "description": "Commerce - Common Module",
+            "description": "Commerce - Public APIs Module",
             "homepage": "http://zoopcommerce.com",
             "keywords": [
                 "commerce",
@@ -1906,161 +1818,10 @@
                 "zoop"
             ],
             "support": {
-                "source": "https://github.com/zoopcommerce/commerce-common-module/tree/master",
-                "issues": "https://github.com/zoopcommerce/commerce-common-module/issues"
+                "source": "https://github.com/zoopcommerce/commerce-public-apis-module/tree/master",
+                "issues": "https://github.com/zoopcommerce/commerce-public-apis-module/issues"
             },
-            "time": "2014-10-12 05:41:24"
-        },
-        {
-            "name": "zoopcommerce/commerce-store-module",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:zoopcommerce/commerce-store-module.git",
-                "reference": "2457d0d70cf662fe421269033de7dbb26a35d618"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zoopcommerce/commerce-store-module/zipball/2457d0d70cf662fe421269033de7dbb26a35d618",
-                "reference": "2457d0d70cf662fe421269033de7dbb26a35d618",
-                "shasum": ""
-            },
-            "require": {
-                "aws/aws-sdk-php": "2.*",
-                "codeguy/upload": "dev-master#ff376306aacbd1005c7739dc171fae4edd96d8b7",
-                "doctrine/annotations": "dev-master#a11349d39d85bef75a71bd69bd604ac4fb993f03 as dev-master",
-                "doctrine/doctrine-module": "1.0.x-dev as 1.0",
-                "doctrine/doctrine-mongo-odm-module": "1.0.x-dev",
-                "doctrine/mongodb-odm": "dev-hotfix719 as 1.0.0-BETA9",
-                "doctrine/orm": "2.4.0-RC2",
-                "dompdf/dompdf": "dev-master#03ad3265797a338dce2d7064edd0cb4ebedb052b as dev-master",
-                "ezyang/htmlpurifier": "v4.5.0",
-                "imagine/imagine": "~0.6",
-                "mashape/unirest-php": "~1.2",
-                "melihucar/ftpclient": "dev-master#faab472b1f3118d4926b3cbfc7d21c9cba255c0f as dev-master",
-                "php": ">=5.4",
-                "sendgrid/sendgrid": "~2.1",
-                "willdurand/geocoder": "2.4.*",
-                "zendframework/zendframework": "2.3.1",
-                "zoopcommerce/commerce-api-module": "dev-master",
-                "zoopcommerce/commerce-common-module": "dev-master",
-                "zoopcommerce/commerce-user-module": "dev-master",
-                "zoopcommerce/gateway-module": "~2.0",
-                "zoopcommerce/shard-module": "~4.0"
-            },
-            "require-dev": {
-                "phpmd/phpmd": "2.*",
-                "phpunit/phpunit": ">=3.7",
-                "squizlabs/php_codesniffer": "1.4.*",
-                "zoopcommerce/commerce-test-data-module": "dev-master"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Zoop\\Store": "src/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Josh Stuart",
-                    "email": "josh.stuart@zoopcommerce.com"
-                },
-                {
-                    "name": "Tim Roediger",
-                    "email": "superdweebie@gmail.com"
-                }
-            ],
-            "description": "Commerce - Store Module",
-            "homepage": "http://zoopcommerce.com",
-            "keywords": [
-                "commerce",
-                "doctrine",
-                "mongo",
-                "shard",
-                "zf2",
-                "zoop",
-                "zoop"
-            ],
-            "support": {
-                "source": "https://github.com/zoopcommerce/commerce-store-module/tree/master",
-                "issues": "https://github.com/zoopcommerce/commerce-store-module/issues"
-            },
-            "time": "2014-09-23 09:29:58"
-        },
-        {
-            "name": "zoopcommerce/commerce-user-module",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:zoopcommerce/commerce-user-module.git",
-                "reference": "ada9c1df4f8a0c03304512160027c988f4b6122d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zoopcommerce/commerce-user-module/zipball/ada9c1df4f8a0c03304512160027c988f4b6122d",
-                "reference": "ada9c1df4f8a0c03304512160027c988f4b6122d",
-                "shasum": ""
-            },
-            "require": {
-                "aws/aws-sdk-php": "2.*",
-                "codeguy/upload": "dev-master#ff376306aacbd1005c7739dc171fae4edd96d8b7",
-                "doctrine/annotations": "dev-master#a11349d39d85bef75a71bd69bd604ac4fb993f03 as dev-master",
-                "doctrine/doctrine-module": "1.0.x-dev as 1.0",
-                "doctrine/doctrine-mongo-odm-module": "1.0.x-dev",
-                "doctrine/mongodb-odm": "dev-hotfix719 as 1.0.0-BETA9",
-                "doctrine/orm": "2.4.0-RC2",
-                "dompdf/dompdf": "dev-master#03ad3265797a338dce2d7064edd0cb4ebedb052b as dev-master",
-                "ezyang/htmlpurifier": "v4.5.0",
-                "imagine/imagine": "~0.6",
-                "mashape/unirest-php": "~1.2",
-                "melihucar/ftpclient": "dev-master#faab472b1f3118d4926b3cbfc7d21c9cba255c0f as dev-master",
-                "php": ">=5.4",
-                "sendgrid/sendgrid": "~2.1",
-                "zendframework/zendframework": "2.3.1",
-                "zoopcommerce/commerce-api-module": "dev-master",
-                "zoopcommerce/commerce-common-module": "dev-master",
-                "zoopcommerce/gateway-module": "~2.0",
-                "zoopcommerce/shard-module": "~4.0"
-            },
-            "require-dev": {
-                "phpmd/phpmd": "2.*",
-                "phpunit/phpunit": ">=3.7",
-                "squizlabs/php_codesniffer": "1.4.*",
-                "zoopcommerce/commerce-test-data-module": "dev-master",
-                "zoopcommerce/slipstream": "~0.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Zoop\\User": "src/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Josh Stuart",
-                    "email": "josh.stuart@zoopcommerce.com"
-                },
-                {
-                    "name": "Tim Roediger",
-                    "email": "superdweebie@gmail.com"
-                }
-            ],
-            "description": "Commerce - User Module",
-            "homepage": "http://zoopcommerce.com",
-            "keywords": [
-                "commerce",
-                "doctrine",
-                "mongo",
-                "shard",
-                "zf2",
-                "zoop",
-                "zoop"
-            ],
-            "support": {
-                "source": "https://github.com/zoopcommerce/commerce-user-module/tree/master",
-                "issues": "https://github.com/zoopcommerce/commerce-user-module/issues"
-            },
-            "time": "2014-09-20 06:08:00"
+            "time": "2014-10-19 03:50:32"
         },
         {
             "name": "zoopcommerce/common",
@@ -2569,16 +2330,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "4bdc0421209a00e6f425f4c3554d1b0df3a7e897"
+                "reference": "f976e5de371104877ebc89bd8fecb0019ed9c119"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/4bdc0421209a00e6f425f4c3554d1b0df3a7e897",
-                "reference": "4bdc0421209a00e6f425f4c3554d1b0df3a7e897",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/f976e5de371104877ebc89bd8fecb0019ed9c119",
+                "reference": "f976e5de371104877ebc89bd8fecb0019ed9c119",
                 "shasum": ""
             },
             "require": {
-                "php": "~5.3"
+                "php": ">=5.3,<8.0-DEV"
             },
             "require-dev": {
                 "athletic/athletic": "~0.1.8",
@@ -2615,7 +2376,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2014-10-05 00:20:37"
+            "time": "2014-10-13 12:58:55"
         },
         {
             "name": "pdepend/pdepend",
@@ -2943,12 +2704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "f75e6b2e0764bcf4faa5082f4b60d5e7cf0959bb"
+                "reference": "cd4014775069d7d39d20f617037c2c0f9b4bc25b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/f75e6b2e0764bcf4faa5082f4b60d5e7cf0959bb",
-                "reference": "f75e6b2e0764bcf4faa5082f4b60d5e7cf0959bb",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/cd4014775069d7d39d20f617037c2c0f9b4bc25b",
+                "reference": "cd4014775069d7d39d20f617037c2c0f9b4bc25b",
                 "shasum": ""
             },
             "require": {
@@ -3006,7 +2767,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-10-07 09:30:07"
+            "time": "2014-10-17 09:28:50"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -3652,6 +3413,226 @@
             "time": "2014-10-05 13:53:50"
         },
         {
+            "name": "zoopcommerce/commerce-api-module",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:zoopcommerce/commerce-api-module.git",
+                "reference": "979b54bba251f7f04c81f328b87b2b1134515ad3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zoopcommerce/commerce-api-module/zipball/979b54bba251f7f04c81f328b87b2b1134515ad3",
+                "reference": "979b54bba251f7f04c81f328b87b2b1134515ad3",
+                "shasum": ""
+            },
+            "require": {
+                "aws/aws-sdk-php": "2.*",
+                "codeguy/upload": "dev-master#ff376306aacbd1005c7739dc171fae4edd96d8b7",
+                "doctrine/annotations": "dev-master#a11349d39d85bef75a71bd69bd604ac4fb993f03 as dev-master",
+                "doctrine/doctrine-module": "1.0.x-dev as 1.0",
+                "doctrine/doctrine-mongo-odm-module": "1.0.x-dev",
+                "doctrine/mongodb-odm": "dev-hotfix719 as 1.0.0-BETA9",
+                "doctrine/orm": "2.4.0-RC2",
+                "dompdf/dompdf": "dev-master#03ad3265797a338dce2d7064edd0cb4ebedb052b as dev-master",
+                "imagine/imagine": "~0.6",
+                "mashape/unirest-php": "~1.2",
+                "melihucar/ftpclient": "dev-master#faab472b1f3118d4926b3cbfc7d21c9cba255c0f as dev-master",
+                "php": ">=5.4",
+                "sendgrid/sendgrid": "~2.1",
+                "zendframework/zendframework": "2.3.1",
+                "zoopcommerce/shard-module": "~4.0"
+            },
+            "require-dev": {
+                "phpmd/phpmd": "2.*",
+                "phpunit/phpunit": ">=3.7",
+                "squizlabs/php_codesniffer": "1.4.*",
+                "zoopcommerce/commerce-common-module": "dev-master",
+                "zoopcommerce/commerce-public-apis-module": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zoop\\Api": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Josh Stuart",
+                    "email": "josh.stuart@zoopcommerce.com"
+                },
+                {
+                    "name": "Tim Roediger",
+                    "email": "superdweebie@gmail.com"
+                }
+            ],
+            "description": "Commerce - API Module",
+            "homepage": "http://zoopcommerce.com",
+            "keywords": [
+                "commerce",
+                "doctrine",
+                "mongo",
+                "shard",
+                "zf2",
+                "zoop",
+                "zoop"
+            ],
+            "support": {
+                "source": "https://github.com/zoopcommerce/commerce-api-module/tree/master",
+                "issues": "https://github.com/zoopcommerce/commerce-api-module/issues"
+            },
+            "time": "2014-10-18 05:15:48"
+        },
+        {
+            "name": "zoopcommerce/commerce-common-module",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:zoopcommerce/commerce-common-module.git",
+                "reference": "75e7484c3728f938c6aaf034766c3b5077a1339e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zoopcommerce/commerce-common-module/zipball/75e7484c3728f938c6aaf034766c3b5077a1339e",
+                "reference": "75e7484c3728f938c6aaf034766c3b5077a1339e",
+                "shasum": ""
+            },
+            "require": {
+                "aws/aws-sdk-php": "2.*",
+                "codeguy/upload": "dev-master#ff376306aacbd1005c7739dc171fae4edd96d8b7",
+                "doctrine/annotations": "dev-master#a11349d39d85bef75a71bd69bd604ac4fb993f03 as dev-master",
+                "doctrine/doctrine-module": "1.0.x-dev as 1.0",
+                "doctrine/doctrine-mongo-odm-module": "1.0.x-dev",
+                "doctrine/mongodb-odm": "dev-hotfix719 as 1.0.0-BETA9",
+                "doctrine/orm": "2.4.0-RC2",
+                "dompdf/dompdf": "dev-master#03ad3265797a338dce2d7064edd0cb4ebedb052b as dev-master",
+                "ezyang/htmlpurifier": "v4.5.0",
+                "imagine/imagine": "~0.6",
+                "mashape/unirest-php": "~1.2",
+                "melihucar/ftpclient": "dev-master#faab472b1f3118d4926b3cbfc7d21c9cba255c0f as dev-master",
+                "php": ">=5.4",
+                "sendgrid/sendgrid": "~2.1",
+                "willdurand/geocoder": "2.4.*",
+                "zendframework/zendframework": "2.3.1",
+                "zoopcommerce/commerce-public-apis-module": "dev-master",
+                "zoopcommerce/shard-module": "~4.0"
+            },
+            "require-dev": {
+                "phpmd/phpmd": "2.*",
+                "phpunit/phpunit": ">=3.7",
+                "squizlabs/php_codesniffer": "1.4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zoop\\Common": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Josh Stuart",
+                    "email": "josh.stuart@zoopcommerce.com"
+                },
+                {
+                    "name": "Tim Roediger",
+                    "email": "superdweebie@gmail.com"
+                }
+            ],
+            "description": "Commerce - Common Module",
+            "homepage": "http://zoopcommerce.com",
+            "keywords": [
+                "commerce",
+                "doctrine",
+                "mongo",
+                "shard",
+                "zf2",
+                "zoop",
+                "zoop"
+            ],
+            "support": {
+                "source": "https://github.com/zoopcommerce/commerce-common-module/tree/master",
+                "issues": "https://github.com/zoopcommerce/commerce-common-module/issues"
+            },
+            "time": "2014-10-19 05:36:36"
+        },
+        {
+            "name": "zoopcommerce/commerce-store-module",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:zoopcommerce/commerce-store-module.git",
+                "reference": "bea57891e520da2dffc17882e6b665a7d4ad87ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zoopcommerce/commerce-store-module/zipball/bea57891e520da2dffc17882e6b665a7d4ad87ef",
+                "reference": "bea57891e520da2dffc17882e6b665a7d4ad87ef",
+                "shasum": ""
+            },
+            "require": {
+                "aws/aws-sdk-php": "2.*",
+                "codeguy/upload": "dev-master#ff376306aacbd1005c7739dc171fae4edd96d8b7",
+                "doctrine/annotations": "dev-master#a11349d39d85bef75a71bd69bd604ac4fb993f03 as dev-master",
+                "doctrine/doctrine-module": "1.0.x-dev as 1.0",
+                "doctrine/doctrine-mongo-odm-module": "1.0.x-dev",
+                "doctrine/mongodb-odm": "dev-hotfix719 as 1.0.0-BETA9",
+                "doctrine/orm": "2.4.0-RC2",
+                "dompdf/dompdf": "dev-master#03ad3265797a338dce2d7064edd0cb4ebedb052b as dev-master",
+                "ezyang/htmlpurifier": "v4.5.0",
+                "imagine/imagine": "~0.6",
+                "mashape/unirest-php": "~1.2",
+                "melihucar/ftpclient": "dev-master#faab472b1f3118d4926b3cbfc7d21c9cba255c0f as dev-master",
+                "php": ">=5.4",
+                "sendgrid/sendgrid": "~2.1",
+                "willdurand/geocoder": "2.4.*",
+                "zendframework/zendframework": "2.3.1",
+                "zoopcommerce/commerce-public-apis-module": "dev-master",
+                "zoopcommerce/gateway-module": "~2.0",
+                "zoopcommerce/shard-module": "~4.0"
+            },
+            "require-dev": {
+                "phpmd/phpmd": "2.*",
+                "phpunit/phpunit": ">=3.7",
+                "squizlabs/php_codesniffer": "1.4.*",
+                "zoopcommerce/commerce-api-module": "dev-master",
+                "zoopcommerce/commerce-common-module": "dev-master",
+                "zoopcommerce/commerce-test-data-module": "dev-master",
+                "zoopcommerce/commerce-user-module": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zoop\\Store": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Josh Stuart",
+                    "email": "josh.stuart@zoopcommerce.com"
+                },
+                {
+                    "name": "Tim Roediger",
+                    "email": "superdweebie@gmail.com"
+                }
+            ],
+            "description": "Commerce - Store Module",
+            "homepage": "http://zoopcommerce.com",
+            "keywords": [
+                "commerce",
+                "doctrine",
+                "mongo",
+                "shard",
+                "zf2",
+                "zoop",
+                "zoop"
+            ],
+            "support": {
+                "source": "https://github.com/zoopcommerce/commerce-store-module/tree/master",
+                "issues": "https://github.com/zoopcommerce/commerce-store-module/issues"
+            },
+            "time": "2014-10-18 07:58:42"
+        },
+        {
             "name": "zoopcommerce/commerce-test-data-module",
             "version": "dev-master",
             "source": {
@@ -3701,6 +3682,81 @@
                 "issues": "https://github.com/zoopcommerce/commerce-test-data-module/issues"
             },
             "time": "2014-09-22 09:11:11"
+        },
+        {
+            "name": "zoopcommerce/commerce-user-module",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:zoopcommerce/commerce-user-module.git",
+                "reference": "665bbc29b9ae7ff927d16f5ca56a2f1d319abd34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zoopcommerce/commerce-user-module/zipball/665bbc29b9ae7ff927d16f5ca56a2f1d319abd34",
+                "reference": "665bbc29b9ae7ff927d16f5ca56a2f1d319abd34",
+                "shasum": ""
+            },
+            "require": {
+                "aws/aws-sdk-php": "2.*",
+                "codeguy/upload": "dev-master#ff376306aacbd1005c7739dc171fae4edd96d8b7",
+                "doctrine/annotations": "dev-master#a11349d39d85bef75a71bd69bd604ac4fb993f03 as dev-master",
+                "doctrine/doctrine-module": "1.0.x-dev as 1.0",
+                "doctrine/doctrine-mongo-odm-module": "1.0.x-dev",
+                "doctrine/mongodb-odm": "dev-hotfix719 as 1.0.0-BETA9",
+                "doctrine/orm": "2.4.0-RC2",
+                "dompdf/dompdf": "dev-master#03ad3265797a338dce2d7064edd0cb4ebedb052b as dev-master",
+                "ezyang/htmlpurifier": "v4.5.0",
+                "imagine/imagine": "~0.6",
+                "mashape/unirest-php": "~1.2",
+                "melihucar/ftpclient": "dev-master#faab472b1f3118d4926b3cbfc7d21c9cba255c0f as dev-master",
+                "php": ">=5.4",
+                "sendgrid/sendgrid": "~2.1",
+                "zendframework/zendframework": "2.3.1",
+                "zoopcommerce/commerce-public-apis-module": "dev-master",
+                "zoopcommerce/gateway-module": "~2.0",
+                "zoopcommerce/shard-module": "~4.0"
+            },
+            "require-dev": {
+                "phpmd/phpmd": "2.*",
+                "phpunit/phpunit": ">=3.7",
+                "squizlabs/php_codesniffer": "1.4.*",
+                "zoopcommerce/commerce-api-module": "dev-master",
+                "zoopcommerce/commerce-common-module": "dev-master",
+                "zoopcommerce/commerce-test-data-module": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zoop\\User": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Josh Stuart",
+                    "email": "josh.stuart@zoopcommerce.com"
+                },
+                {
+                    "name": "Tim Roediger",
+                    "email": "superdweebie@gmail.com"
+                }
+            ],
+            "description": "Commerce - User Module",
+            "homepage": "http://zoopcommerce.com",
+            "keywords": [
+                "commerce",
+                "doctrine",
+                "mongo",
+                "shard",
+                "zf2",
+                "zoop",
+                "zoop"
+            ],
+            "support": {
+                "source": "https://github.com/zoopcommerce/commerce-user-module/tree/master",
+                "issues": "https://github.com/zoopcommerce/commerce-user-module/issues"
+            },
+            "time": "2014-10-19 05:45:44"
         }
     ],
     "aliases": [
@@ -3744,11 +3800,12 @@
         "doctrine/mongodb-odm": 20,
         "dompdf/dompdf": 20,
         "melihucar/ftpclient": 20,
+        "zoopcommerce/commerce-public-apis-module": 20,
+        "zoopcommerce/commerce-test-data-module": 20,
         "zoopcommerce/commerce-api-module": 20,
         "zoopcommerce/commerce-common-module": 20,
         "zoopcommerce/commerce-store-module": 20,
-        "zoopcommerce/commerce-user-module": 20,
-        "zoopcommerce/commerce-test-data-module": 20
+        "zoopcommerce/commerce-user-module": 20
     },
     "prefer-stable": false,
     "platform": {

@@ -4,7 +4,7 @@ namespace Zoop\Collection\Test\Controller;
 
 use Zend\Http\Header\Origin;
 use Zend\Http\Header\Host;
-use Zoop\Collection\DataModel\Collection;
+use Zoop\Collection\DataModel\CollectionInterface;
 use Zoop\Collection\Test\AbstractTest;
 use Zoop\Test\Helper\DataHelper;
 
@@ -45,7 +45,8 @@ class SimpleCrudTest extends AbstractTest
         $name = "T-Shirts";
         $data = [
             "slug" => $slug,
-            "name" => $name
+            "name" => $name,
+            "store" => "apple"
         ];
 
         DataHelper::createStores(self::getNoAuthDocumentManager(), self::getDbName());
@@ -79,7 +80,11 @@ class SimpleCrudTest extends AbstractTest
 
         self::getNoAuthDocumentManager()->clear();
 
-        $collection = DataHelper::get(self::getNoAuthDocumentManager(), 'Zoop\Collection\DataModel\AbstractCollection', $collectionId);
+        $collection = DataHelper::get(
+            self::getNoAuthDocumentManager(),
+            'Zoop\Collection\DataModel\AbstractCollection',
+            $collectionId
+        );
         $this->assertNotEmpty($collection);
         $this->assertEquals($name, $collection->getName());
         $this->assertEquals($slug, $collection->getSlug());
@@ -116,7 +121,7 @@ class SimpleCrudTest extends AbstractTest
 
         $content = json_decode($json, true);
 
-        $this->assertCount(8, $content);
+        $this->assertCount(1, $content);
 
         $collection = $content[0];
 
@@ -165,14 +170,9 @@ class SimpleCrudTest extends AbstractTest
     {
         self::getDocumentManager()->clear();
 
-        $name = "Tesla Pty Ltd";
+        $name = "Hoodies";
         $data = [
-            "name" => $name,
-            "domains" => [
-                "teslamotors.com",
-                "teslamotors.com.au"
-            ],
-            "email" => "info@teslamotors.com.au"
+            "name" => $name
         ];
 
         $request = $this->getRequest();
@@ -187,18 +187,21 @@ class SimpleCrudTest extends AbstractTest
                 Host::fromString('Host: api.zoopcommerce.local')
             ]);
 
-        $this->dispatch(sprintf('http://api.zoopcommerce.local/stores/%s', $collectionId));
+        $this->dispatch(sprintf(self::$endpoint . '/%s', 'apple', $collectionId));
         $response = $this->getResponse();
 
         $this->assertResponseStatusCode(204);
 
         self::getNoAuthDocumentManager()->clear();
 
-        $collection = DataHelper::get(self::getNoAuthDocumentManager(), 'Zoop\Collection\DataModel\Collection', $collectionId);
+        $collection = DataHelper::get(
+            self::getNoAuthDocumentManager(),
+            'Zoop\Collection\DataModel\AbstractCollection',
+            $collectionId
+        );
 
-        $this->assertTrue($collection instanceof Collection);
+        $this->assertTrue($collection instanceof CollectionInterface);
         $this->assertEquals($name, $collection->getName());
-        $this->assertCount(2, $collection->getDomains());
     }
 
     /**
@@ -217,14 +220,18 @@ class SimpleCrudTest extends AbstractTest
                 Host::fromString('Host: api.zoopcommerce.local')
             ]);
 
-        $this->dispatch(sprintf('http://api.zoopcommerce.local/stores/%s', $collectionId));
+        $this->dispatch(sprintf(self::$endpoint . '/%s', 'apple', $collectionId));
         $response = $this->getResponse();
 
         $this->assertResponseStatusCode(204);
 
         //we need to just do a soft delete rather than a hard delete
         self::getNoAuthDocumentManager()->clear();
-        $collection = DataHelper::get(self::getNoAuthDocumentManager(), 'Zoop\Collection\DataModel\Collection', $collectionId);
+        $collection = DataHelper::get(
+            self::getNoAuthDocumentManager(),
+            'Zoop\Collection\DataModel\AbstractCollection',
+            $collectionId
+        );
         $this->assertEmpty($collection);
     }
 }
